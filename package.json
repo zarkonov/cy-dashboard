@@ -1,0 +1,29 @@
+{
+  "name": "cy-dashboard",
+  "version": "1.0.0",
+  "description": "cy with dashboard service",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-dashboard": "cypress run --record --key 2d8be6ed-0acb-43f3-8482-edfcdcaeabec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarkonov/cy-dashboard.git"
+  },
+  "keywords": [
+    "cy",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zarkonov/cy-dashboard/issues"
+  },
+  "homepage": "https://github.com/zarkonov/cy-dashboard#readme",
+  "dependencies": {
+    "cypress": "^9.5.0",
+    "prettier": "^2.7.1"
+  }
+}
