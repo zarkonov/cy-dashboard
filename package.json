@@ -6,7 +6,8 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:run-dashboard": "cypress run --record --key 2d8be6ed-0acb-43f3-8482-edfcdcaeabec"
+    "cy:run-dashboard": "cypress run --record --key 2d8be6ed-0acb-43f3-8482-edfcdcaeabec",
+    "start-jenkins-server": "java -jar jenkins.war - httpPort=8080 --enable-future-java"
   },
   "repository": {
     "type": "git",
